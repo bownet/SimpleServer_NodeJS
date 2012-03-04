@@ -11,6 +11,7 @@ handler["/Action"] = handle.list;
 handler["/action"] = handle.list;
 handler["/actions"] = handle.list;
 handler["/Files"] = handle.download;
+handler["/files"] = handle.download;
 
 /* to handle upload request*/
 var uploadHandler = {};
